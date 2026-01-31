@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: 'Roboto';
+}
+
 a {
   text-decoration: none;
 }
