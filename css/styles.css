@@ -27,7 +27,7 @@ ul {
   background-color: #1f2937;
   padding: 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -54,6 +54,7 @@ ul {
 .hero {
   background-color: #1f2937;
   display: flex;
+  justify-content: space-around;
   padding: 75px;
 }
 
@@ -64,14 +65,18 @@ ul {
 }
 
 .hero__sub {
-
+  color: #f9faf8;
 }
 
-.heade__right {
-
+.hero__right {
+  background-color: grey;
 }
  .info {
+  padding: 75px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+
  }
 
  .info__top {
@@ -91,6 +96,7 @@ ul {
  }
 
  .quote {
+  padding: 75px;
   display: flex;
   background-color: #e5e7eb;
   font-size: 36px;
@@ -98,6 +104,7 @@ ul {
  }
 
  .cta {
+  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
