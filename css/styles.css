@@ -6,6 +6,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -22,6 +24,11 @@ ul {
 
 .header {
   background-color: #1f2937;
+  margin: 0px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -30,19 +37,27 @@ ul {
 }
 
 .links {
-
+display: flex;
+gap: 25px;
 }
 
 .container {
-
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .hero {
 
 }
 
-.hero-left {
-
+.hero {
+  background-color: #1f2937;
+}
+.hero__main {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .header-right {
@@ -86,4 +101,6 @@ ul {
 
  .footer {
   background-color: #1f2937;
+  color: #f9faf8;
+  padding: 16px;
  }
