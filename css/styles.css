@@ -25,7 +25,7 @@ ul {
 
 .header {
   background-color: #1f2937;
-  padding: 15px;
+  padding: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -54,7 +54,7 @@ ul {
 .hero {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 75px;
 }
 
@@ -66,10 +66,14 @@ ul {
 
 .hero__sub {
   color: #f9faf8;
+  opacity: 70%;
 }
 
 .hero__right {
-  background-color: grey;
+  color: #f9faf8;
+  background-color: rgb(125, 125, 125);
+  width: 700px;
+  height: 200px;
 }
  .info {
   padding: 75px;
