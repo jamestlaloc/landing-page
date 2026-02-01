@@ -16,6 +16,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #f9faf8;
 }
 
 ul {
@@ -24,7 +25,6 @@ ul {
 
 .header {
   background-color: #1f2937;
-  margin: 0px;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -37,8 +37,12 @@ ul {
 }
 
 .links {
-display: flex;
-gap: 25px;
+  display: flex;
+  gap: 25px;
+}
+
+.link__items {
+ 
 }
 
 .container {
@@ -48,23 +52,26 @@ gap: 25px;
 }
 
 .hero {
-
-}
-
-.hero {
   background-color: #1f2937;
+  display: flex;
+  padding: 75px;
 }
+
 .hero__main {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
 }
 
-.header-right {
+.hero__sub {
+
+}
+
+.heade__right {
 
 }
  .info {
-
+  display: flex;
  }
 
  .info__top {
@@ -84,24 +91,33 @@ gap: 25px;
  }
 
  .quote {
+  display: flex;
   background-color: #e5e7eb;
   font-size: 36px;
   font-weight: 300;
  }
 
  .cta {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
  .cta__text {
-
+  justify-content: center;
  }
 
  .btn {
   background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 4px 15px;
+  border-radius: 8px;;
  }
 
  .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #1f2937;
   color: #f9faf8;
   padding: 16px;
